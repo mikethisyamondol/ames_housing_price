@@ -7,3 +7,6 @@ The first part of this project which is found in the in the EDA and Transformati
 <br>
 <br>
 Modeling part I relies soley on standard linear regression using sk-learn's LinearRegression(). Both simple linear regression and multiple linear regression are used to predict SalePrice.
+<br>
+<br>
+Modeling part II utlizes regularization, specifically Lasso (L1), Ridge, (L2), and Elastic Net regressions. Additional predictors are passed in these models, as the L1 and L2 coefficients are able to penalize non-important features so that the model is not overfit. 
